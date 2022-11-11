@@ -15,7 +15,11 @@
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-/* globals */
+/* 
+===============
+GLOBAL STYLES
+===============
+ */
 body {
   padding-top: 66px;
   color: var(--mainBlack);
@@ -87,7 +91,11 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 /* end of globals */
-/* Navbar */
+/* 
+==============
+Navbar 
+==============
+*/
 .navbar {
   position: fixed;
   top: 0;
@@ -155,7 +163,11 @@ h6 {
   }
 }
 /* end of navbar */
-/* Hero */
+/* 
+========
+Hero
+========
+ */
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
@@ -169,7 +181,11 @@ h6 {
   min-height: 60vh;
 }
 /* End of Hero */
-/* Banner */
+/* 
+==========
+Banner
+==========
+ */
 .banner {
   display: inline-block;
   background: rgba(0, 0, 0, 0.5);
@@ -209,7 +225,11 @@ h6 {
   }
 }
 /* End of Banner */
-/* Title */
+/* 
+===========
+Title
+===========
+ */
 .section-title {
   text-align: center;
   margin-bottom: 4rem;
@@ -228,7 +248,11 @@ h6 {
 }
 /* end of Title */
 
-/* services */
+/* 
+=============
+services
+==============
+ */
 .services {
   padding: 5rem 0;
 }
@@ -270,7 +294,11 @@ h6 {
   }
 }
 /*end of services */
-/* featured rooms */
+/*
+===============
+featured rooms
+===============
+ */
 
 .featured-rooms {
   padding: 5rem 0;
@@ -296,7 +324,11 @@ h6 {
   }
 }
 /* end pf featured rooms */
-/* room */
+/*
+===========
+ room
+ ==========
+  */
 .room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
@@ -359,7 +391,11 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 /* end of room  */
-/* single room*/
+/* 
+===============
+single room
+===============
+*/
 
 .single-room {
   padding: 5rem 0 0 0;
@@ -434,7 +470,11 @@ h6 {
   }
 }
 /* end of single room*/
-/* roomlist */
+/* 
+=============
+Room List 
+=============
+*/
 .roomslist {
   padding: 5rem 0;
 }
@@ -459,7 +499,11 @@ h6 {
   }
 }
 /* end of roomlist */
-/*  rooms fitler*/
+/*  
+============
+Rooms Filter
+============
+*/
 .filter-container {
   padding: 5rem 0;
 }
@@ -510,7 +554,7 @@ h6 {
     max-width: 1170px;
   }
 }
-/* end of rooms fitler*/
+/* end of rooms filter*/
 /* 
 ========
 Footer
